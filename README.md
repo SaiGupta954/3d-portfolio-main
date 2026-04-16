@@ -4,7 +4,7 @@ This repository contains the source code for a personal 3D portfolio built with 
 
 Live site:(https://rk-portfolio-m1z3.onrender.com/)
 
-![Portfolio Preview](public/images/preview1.png)
+
 
 ## Table of Contents
 

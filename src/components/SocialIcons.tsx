@@ -1,6 +1,7 @@
 import {
   FaGithub,
   FaLinkedinIn,
+  FaEnvelope,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -75,10 +76,15 @@ const SocialIcons = () => {
             <FaLinkedinIn />
           </a>
         </span>
+        <span>
+          <a href="mailto:gamparamakrishna8@gmail.com" target="_blank" rel="noreferrer">
+            <FaEnvelope />
+          </a>
+        </span>
       </div>
       <a
         className="resume-button"
-        href="/gampa_ramakrishna_resume_v2.docx"
+        href="/Ramakrishna_Gampa_Resume.pdf"
         target="_blank"
         rel="noreferrer"
       >

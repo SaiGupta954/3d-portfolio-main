@@ -26,4 +26,7 @@ dist-ssr
 
 backup/
 .env
-._*
+._*node_modules
+dist
+.DS_Store
+*.tsbuildinfo

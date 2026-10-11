@@ -19,14 +19,21 @@ const Contact = () => {
                 LinkedIn — ramakrishna-gampa
               </a>
             </p>
+            <h4>Email</h4>
+            <p>
+              <a href="mailto:gamparamakrishna8@gmail.com" data-cursor="disable">
+                gamparamakrishna8@gmail.com
+              </a>
+            </p>
             <h4>Education</h4>
             <p>
-              Master's In Computer Science, University of Cincinnati, Cincinnati — AUG 2024 - PRESENT
+              M.S. in Computer Science, University of Cincinnati — AUG 2024 –
+              APR 2026 · 3.96 GPA
             </p>
-            <h4>Leadership & Volunteer</h4>
+            <h4>Community</h4>
             <p>
-              Student Support Specialist, University of Cincinnati (MAY 2025 - PRESENT)<br />
-              Organized AI and tech workshops, supporting students through IEEE events and hackathons.
+              IEEE Member, University of Cincinnati (NOV 2024 – APR 2026)<br />
+              Technical workshops, coding competitions and networking events.
             </p>
           </div>
           <div className="contact-box">
@@ -55,7 +62,7 @@ const Contact = () => {
               Designed and Developed <br /> by <span>Ramakrishna Gampa</span>
             </h2>
             <h5>
-              <MdCopyright /> 2026
+              <MdCopyright /> {new Date().getFullYear()}
             </h5>
           </div>
         </div>

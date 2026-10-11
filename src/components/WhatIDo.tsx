@@ -87,19 +87,21 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>MODELING & DATA LABS</h3>
-              <h4>Data Pipelines & AI Engineering</h4>
+              <h3>AI ENGINEERING</h3>
+              <h4>LLMs, RAG & Agentic AI</h4>
               <p>
-                Developing Data Pipelines, APIs, Dashboards, & AI Tools to Optimize system operations. Applying ML & Data Engineering To Improve Efficiency and Sustainability Initiatives.
+                Building LLM and RAG applications that answer questions from your own documents, agentic workflows that take real actions, and ML and computer vision models inside apps.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
+                <div className="what-tags">LLMs</div>
+                <div className="what-tags">RAG</div>
+                <div className="what-tags">Agentic AI</div>
+                <div className="what-tags">Vector Search</div>
+                <div className="what-tags">Prompt Engineering</div>
                 <div className="what-tags">TensorFlow</div>
-                <div className="what-tags">PyTorch</div>
-                <div className="what-tags">Neural Networks</div>
-                <div className="what-tags">Deep Learning</div>
-                <div className="what-tags">NLP</div>
-                <div className="what-tags">Pandas & NumPy</div>
+                <div className="what-tags">Scikit-Learn</div>
+                <div className="what-tags">OpenCV</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -123,20 +125,23 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Full Stack Web Development</h4>
+              <h3>BUILD &amp; SHIP</h3>
+              <h4>Full Stack & DevOps</h4>
               <p>
-                Developed scalable web apps and RESTful APIs using React.js and Node.js. Experienced with cloud platforms, and building optimized, highly-available applications.
+                Python and FastAPI backends and REST APIs, React and TypeScript front ends, shipped with Docker and CI/CD on Linux and Azure, with pytest keeping it all honest.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
                 <div className="what-tags">Python</div>
-                <div className="what-tags">React.js</div>
-                <div className="what-tags">HTML5 & CSS3</div>
+                <div className="what-tags">FastAPI</div>
+                <div className="what-tags">Node.js</div>
+                <div className="what-tags">React</div>
                 <div className="what-tags">TypeScript</div>
-                <div className="what-tags">AWS & Azure</div>
+                <div className="what-tags">SQL</div>
                 <div className="what-tags">Docker</div>
+                <div className="what-tags">Linux</div>
+                <div className="what-tags">Azure</div>
+                <div className="what-tags">GitHub Actions</div>
               </div>
               <div className="what-arrow"></div>
             </div>

@@ -4,52 +4,46 @@ import { MdArrowBack, MdArrowForward, MdArrowOutward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Drone Noise Reduction using AI",
+    title: "Root Cause Finder",
+    category: "AI for Ops / Log Analysis",
+    tools: "Python, Drain3, Chroma, Ollama (llama3.1:8b), pytest",
+    description: "Upload a Linux log and get the most likely root cause with the exact log lines as proof. Drain3 groups lines into patterns, Chroma retrieves past-fix cards, a local LLM explains, and plain code verifies every evidence line. 77% first-answer accuracy on 30 seeded failures vs 63% for a keyword baseline.",
+    link: "https://github.com/SaiGupta954/root-cause-finder",
+  },
+  {
+    title: "Nexus AGI",
+    category: "Local AI Voice Assistant / Agentic AI",
+    tools: "Python, FastAPI, Docker, WebSockets, RAG",
+    description: "A private AI voice assistant that runs fully on local hardware, with RAG document search, long-term memory and agentic system control.",
+    link: "#",
+  },
+  {
+    title: "CrossMind AI",
+    category: "Computer Vision / Smart Infrastructure",
+    tools: "Python, OpenCV, FastAPI",
+    description: "A computer vision prototype that detects a pedestrian waiting at a crosswalk and sends the WALK request through a FastAPI backend, with no button press.",
+    link: "#",
+  },
+  {
+    title: "Smart Inventory AI",
+    category: "Demand Forecasting / Full Stack",
+    tools: "Python, TypeScript, React, Forecasting",
+    description: "A platform that forecasts demand spikes from past sales data. Working on the Python backend, running locally with no cloud APIs.",
+    link: "https://github.com/SaiGupta954/Smart-Inventory-",
+  },
+  {
+    title: "Drone Noise Prediction",
     category: "Machine Learning / Aeroacoustics",
-    tools: "Python, TensorFlow, Scikit-learn",
-    description:
-      "Built ML models to predict and reduce drone propeller noise using aeroacoustics sensor data. Optimized models with feature engineering achieving 15% noise reduction.",
+    tools: "Python, TensorFlow, Scikit-Learn, Pandas",
+    description: "ML models that predict drone propeller noise from sensor data (RPM, frequency, decibels), with feature engineering, hyperparameter tuning and evaluation across multiple validation splits.",
     link: "#",
   },
   {
-    title: "AI Chatbot with Secure Backend",
-    category: "AI & Regression Modeling",
-    tools: "Python, Regression Models, RPM/Angle Datasets",
-    description:
-      "Built regression models using RPM/angle/noise datasets. Reduced setup time by 60% by resolving dependency and environment conflicts.",
-    link: "#",
-  },
-  {
-    title: "Single Cell RNA-Seq Analysis",
-    category: "Data Pipelines / Bioinformatics",
-    tools: "RNA-seq Pipeline, Genomics, Docker",
-    description:
-      "Automated a single-cell RNA-seq pipeline processing 2,000+ data points, reducing analysis time by 70% and improving throughput for downstream gene expression analysis by 3×.",
-    link: "#",
-  },
-  {
-    title: "Solar & EV Operations Dashboard",
-    category: "Data Engineering / Visualization",
-    tools: "Python, APIs, Dashboards, AWS",
-    description:
-      "Developed data pipelines, APIs, and dashboards to optimize Solar, EV, & LED system operations for real-world engineering use cases at MAK Engineering Services.",
-    link: "#",
-  },
-  {
-    title: "Reproducible RNA-seq Environments",
-    category: "DevOps / Reproducibility Research",
-    tools: "Docker, RStudio, R, CI/CD",
-    description:
-      "Deployed Dockerized RStudio environments ensuring 100% reproducibility across 10+ RNA-seq pipelines. Reduced workflow setup time by 60%.",
-    link: "#",
-  },
-  {
-    title: "Full Stack Web Applications",
-    category: "Full Stack Development",
-    tools: "React.js, Node.js, REST APIs, SQL/NoSQL",
-    description:
-      "Developed scalable web apps and RESTful APIs at Mass Mutual. Improved response time by 42% through database optimization and load balancing.",
-    link: "#",
+    title: "Secure LangChain Chatbot",
+    category: "LLM Application",
+    tools: "JavaScript, LangChain, Node.js",
+    description: "An LLM chatbot built with LangChain and a secured backend, exploring safe prompt handling and API key management.",
+    link: "https://github.com/SaiGupta954/secure-langchain-chatbot",
   },
 ];
 
